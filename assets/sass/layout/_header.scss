@@ -1,0 +1,23 @@
+.header {
+    width: 960px;
+    padding: 10px;
+    border-bottom: 1px solid gray
+}
+.header__logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.navigation {
+    display: inline-block;
+    width: 840px;
+    text-align: right;
+}
+.navigation ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.navigation__input {
+    border-radius: 30px;
+}
