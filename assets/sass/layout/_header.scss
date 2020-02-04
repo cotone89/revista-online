@@ -27,8 +27,9 @@
 }
 .navigation ul {
     list-style: none;
-   display: grid;
+    display: grid;
     grid-template-columns: 2fr 0fr 1fr;
+ 
 }
 #itemNosotros {
     display: none;
