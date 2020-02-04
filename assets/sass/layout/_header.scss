@@ -1,7 +1,11 @@
+
+
 .header {
-    width: 960px;
+    width: 100%;
     padding: 10px;
-    border-bottom: 1px solid gray
+    border-bottom: 1px solid gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 .header__logo {
     font-size: 24px;
@@ -11,7 +15,7 @@
 }
 .navigation {
     display: inline-block;
-    width: 840px;
+    width: 70%;
     text-align: right;
 }
 .navigation ul li a {
@@ -20,4 +24,16 @@
 }
 .navigation__input {
     border-radius: 30px;
+}
+.navigation ul {
+    list-style: none;
+   display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#itemNosotros {
+    display: none;
+
+    @include respond-to('small') {
+        display: block;
+    }
 }

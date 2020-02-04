@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\assets",
+    "\\assets\\sass",
+    "\\assets\\sass\\abstracts",
+    "\\assets\\sass\\components",
+    "\\assets\\sass\\layout",
+    "\\assets\\sass\\pages",
+    "\\assets\\sass\\themes",
+    "\\assets\\sass\\vendors",
+    "\\assets\\sass\\vendors\\bootstrap"
+  ],
+  "SelectedNode": "\\assets\\sass\\layout\\_newsletter.scss",
+  "PreviewInSolutionExplorer": false
+}
